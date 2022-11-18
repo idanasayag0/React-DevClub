@@ -5,3 +5,20 @@ ul li img{
     margin-left: 2rem;
     font-size: 1rem;
 }
+form{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+#username{
+    margin-top: 3%;
+}
+#username{
+    border-radius: 15px;
+}
+#buttontype{
+    border-radius: 15px;
+    margin-left: 5px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}

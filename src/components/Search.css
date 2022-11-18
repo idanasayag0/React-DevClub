@@ -1,0 +1,12 @@
+.header-test{
+    margin-left: 45%;
+    margin-top: 3%;
+}
+.Search-input{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}

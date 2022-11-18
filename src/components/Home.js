@@ -19,7 +19,8 @@ const Home = (props) => {
   return (
     <div>
       <form>
-        <input id="username" placeholder="enter username" />
+      <h2>Enter your username please</h2>
+        <input id="username" placeholder="enter username"  />
         <button id="buttontype" onClick={checkInput}>
           Sign in
         </button>

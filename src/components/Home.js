@@ -17,15 +17,24 @@ const Home = (props) => {
   };
 
   return (
-    <div>
-      <form>
-      <h2>Enter your username please</h2>
-        <input id="username" placeholder="enter username"  />
-        <button id="buttontype" onClick={checkInput}>
+    <div className="Auth-form-container">
+    <form className="Auth-form">
+      <div className="Auth-form-content">
+        <h1 className="Auth-form-title">Sign In</h1>
+        <div className="form-group mt-3">
+          <label>UserName</label>
+          <input id="username"
+            type="name"
+            className="form-control mt-1"
+            placeholder="Enter username"
+          />
+          <button className="btn btn-lg btn-dark" id="buttontype" onClick={checkInput}>
           Sign in
         </button>
-      </form>
-    </div>
+        </div>
+      </div>
+    </form>
+  </div>
   );
 };
 
